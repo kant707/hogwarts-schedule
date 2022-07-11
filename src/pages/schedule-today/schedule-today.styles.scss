@@ -1,0 +1,74 @@
+.main-container {
+  display: flex;
+  border: 1px solid #ccc;
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  .attendance-container {
+    border-right: 1px solid #999;
+    width: 50%;
+  }
+  .teachers {
+    margin: 0 0 15px;
+    padding: 0;
+
+
+    .list-item {
+      &:first-child {
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    span {
+      display: block;
+      width: 100%;
+    }
+    .col-teachers {
+
+    }
+    .col-attendance {
+      text-align: left;
+    }
+  }
+  .attendance-dropdown {
+    max-width: 200px;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .schedule-container {
+    border-left: 1px solid #999;
+    width: 50%;
+  }
+  .schedule {
+    margin: 0 0 15px;
+    padding: 0;
+
+    .list-item {
+      &:first-child {
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    span {
+      display: block;
+      width: 100%;
+    }
+    .col-student {}
+    .col-subject {}
+    .col-teacher {
+
+    }
+  }
+}
